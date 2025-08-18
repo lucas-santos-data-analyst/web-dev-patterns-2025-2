@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <!--Cabeçalho falando que vai usar xml-->
+
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <modelVersion>4.0.0</modelVersion> <!-- Modelo do mavel a ser utilizada -->>
+
+    <groupId>br.edu.unifio</groupId> <!--Grupo do projeto conforme padrão de diretórios-->
+    <artifactId>primeiro-projeto</artifactId> <!--Nome do projeto que foi formulado-->
+    <version>2025.08.18</version> <!--Versão ( versão do software) [vc definie o modelo de como ira registrar essa versão] do projeto desenvolvido, como boa pratica colocamos a versão seguindo a data-->
+
+    <properties> <!--Propriedades do java configuração-->
+        <maven.compiler.source>21</maven.compiler.source> <!-- Alterar o 17 para o java 21-->
+        <maven.compiler.target>21</maven.compiler.target> <!-- Alterar o 17 para o java 21-->
+    </properties>
+
+    <dependencies>
+
+        <!-- https://mvnrepository.com/artifact/org.apache.commons/commons-lang3 -->
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <version>3.18.0</version>
+        </dependency>
+
+    </dependencies>
+
+</project>
