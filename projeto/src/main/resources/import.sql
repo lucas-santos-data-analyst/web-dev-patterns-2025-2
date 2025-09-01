@@ -1,0 +1,43 @@
+insert into Categoria (nome) values ('Bebidas');
+insert into Categoria (nome) values ('Frutas');
+insert into Categoria (nome) values ('Carnes');
+insert into Categoria (nome) values ('Eletrônico');
+insert into Categoria (nome) values ('Papelaria');
+insert into Categoria (nome) values ('Beleza');
+insert into Categoria (nome) values ('Casa e Decoração');
+insert into Categoria (nome) values ('Brinquedos');
+insert into Categoria (nome) values ('Limpeza');
+insert into Categoria (nome) values ('Moda');
+
+insert into Produto (nome, preco, quantidade, validade, categoria_codigo) values ('Coca-Cola 2 Litros',15,15,'2025-12-01',1);
+insert into Produto (nome, preco, quantidade, validade, categoria_codigo) values ('Cacho de Banana',5.99,15,'2025-12-01',2);
+insert into Produto (nome, preco, quantidade, validade, categoria_codigo) values ('Filé Mignon',99.90,15,'2025-12-01',3);
+insert into Produto (nome, preco, quantidade, validade, categoria_codigo) values ('Fone de Ouvido',20,15,'2025-12-01',4);
+insert into Produto (nome, preco, quantidade, validade, categoria_codigo) values ('Caderno Tilibra',10.99,15,'2025-12-01',5);
+insert into Produto (nome, preco, quantidade, validade, categoria_codigo) values ('Spray Senador Gold',5.99,15,'2025-12-01',6);
+insert into Produto (nome, preco, quantidade, validade, categoria_codigo) values ('Espelho',15.99,'15,2025-12-01',7);
+insert into Produto (nome, preco, quantidade, validade, categoria_codigo) values ('Max Steel',5.99,15,'2025-12-01',8);
+insert into Produto (nome, preco, quantidade, validade, categoria_codigo) values ('Bom Ar',19.99,15,'2025-12-01',9);
+insert into Produto (nome, preco, quantidade, validade, categoria_codigo) values ('Chinelo Havainas',29.90,15,'2025-12-01',10);
+
+insert into Cliente (nome, cpf) values('Ana Silva','234.567.890-12');
+insert into Cliente (nome, cpf) values('João Pereira','123.456.789-01');
+insert into Cliente (nome, cpf) values('Maria de Soua','345.678.901-23');
+insert into Cliente (nome, cpf) values('Pedro Costa','456.789.012-34');
+insert into Cliente (nome, cpf) values('Juliana Santos','567.890.123-45');
+insert into Cliente (nome, cpf) values('Lucas Almeida','678.901.234-56');
+insert into Cliente (nome, cpf) values('Gabriela Oliveira','789.012.345-67');
+insert into Cliente (nome, cpf) values('Rafael Ferreira','890.123.456-78');
+insert into Cliente (nome, cpf) values('Beatriz Rodrigues','901.234.567-89');
+insert into Cliente (nome, cpf) values('Felipe Martins','012.345.678-90');
+
+insert into Fabricante (nome) values ('');
+insert into Fabricante (nome) values ('');
+insert into Fabricante (nome) values ('');
+insert into Fabricante (nome) values ('');
+insert into Fabricante (nome) values ('');
+insert into Fabricante (nome) values ('');
+insert into Fabricante (nome) values ('');
+insert into Fabricante (nome) values ('');
+insert into Fabricante (nome) values ('');
+insert into Fabricante (nome) values ('');
